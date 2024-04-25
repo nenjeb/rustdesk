@@ -2,7 +2,7 @@
 name = "BBMrustdesk"
 version = "1.2.4"
 authors = ["bbm <info@bbm.hr>"]
-edition = "2024"
+edition = "2021"
 build= "build.rs"
 description = "BBM Remote Desktop"
 default-run = "BBMrustdesk"
