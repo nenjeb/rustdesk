@@ -97,7 +97,7 @@ const Color kColorWarn = Color.fromARGB(255, 245, 133, 59);
 const int kMobileDefaultDisplayWidth = 720;
 const int kMobileDefaultDisplayHeight = 1280;
 
-const int kDesktopDefaultDisplayWidth = 1080;
+const int kDesktopDefaultDisplayWidth = 500;
 const int kDesktopDefaultDisplayHeight = 720;
 
 const int kMobileMaxDisplaySize = 1280;
