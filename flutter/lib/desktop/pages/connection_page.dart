@@ -63,7 +63,7 @@ class _OnlineStatusWidgetState extends State<OnlineStatusWidget> {
 
   @override
   Widget build(BuildContext context) {
-    final isIncomingOnly = bind.isIncomingOnly();
+    final isIncomingOnly = true; //bind.isIncomingOnly(); //promjena
     startServiceWidget() => Offstage(
           offstage: !_svcStopped.value,
           child: InkWell(
