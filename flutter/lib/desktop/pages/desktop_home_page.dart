@@ -58,7 +58,7 @@ class _DesktopHomePageState extends State<DesktopHomePage>
   @override
   Widget build(BuildContext context) {
     super.build(context);
-    final isIncomingOnly = false; //bind.isIncomingOnly(); promjena
+    final isIncomingOnly = bind.isIncomingOnly(); 
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
