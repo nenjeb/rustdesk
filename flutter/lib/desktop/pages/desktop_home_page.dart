@@ -58,13 +58,13 @@ class _DesktopHomePageState extends State<DesktopHomePage>
   @override
   Widget build(BuildContext context) {
     super.build(context);
-    final isIncomingOnly = bind.isIncomingOnly();
+    final isIncomingOnly = false; //bind.isIncomingOnly(); promjena
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         buildLeftPane(context),
-        //if (!isIncomingOnly) const VerticalDivider(width: 1), //promjena
-        //if (!isIncomingOnly) Expanded(child: buildRightPane(context)), //promjena
+        if (!isIncomingOnly) const VerticalDivider(width: 1), //promjena
+        if (!isIncomingOnly) Expanded(child: buildRightPane(context)), //promjena
       ],
     );
   }
