@@ -71,7 +71,7 @@ class _DesktopHomePageState extends State<DesktopHomePage>
   }
 
   Widget buildLeftPane(BuildContext context) {
-    final isIncomingOnly = true; //bind.isIncomingOnly();
+    final isIncomingOnly = true; //bind.isIncomingOnly(); //promjena
     final isOutgoingOnly = bind.isOutgoingOnly();
     final children = <Widget>[
       if (!isOutgoingOnly) buildPresetPasswordWarning(),
